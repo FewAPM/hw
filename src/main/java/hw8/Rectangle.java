@@ -1,7 +1,7 @@
 package hw8;
 
 public class Rectangle extends Shape implements Areable{
-    String name;
+    private String name;
     private int [] coordinates = new int [4];
 
 public Rectangle(String name, int x1, int y1, int x2, int y2){
