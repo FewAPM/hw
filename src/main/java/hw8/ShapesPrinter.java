@@ -3,19 +3,22 @@ package hw8;
 public class ShapesPrinter {
 
     static public void printName(Shape shape) {
-
         shape.printName();
     }
 
     public static void main(String[] args) {
 
-        Shape rectangle = new Rectangle("Rectangle", 2,2,12,12);
-        System.out.println("rectangle.getArea() = " + rectangle.getArea());
-        ShapesPrinter.printName(rectangle);
+        Shape oval = new Oval();
+        Shape rectangle = new Rectangle();
+        Shape triangle = new Triangle();
+        Shape circle = new Circle();
+        Shape quad = new Quad();
 
-        Shape circle = new Circle("Circle", 13d);
-        System.out.println("circle.getArea() = " + circle.getArea());
+        ShapesPrinter.printName(oval);
+        ShapesPrinter.printName(rectangle);
+        ShapesPrinter.printName(triangle);
         ShapesPrinter.printName(circle);
+        ShapesPrinter.printName(quad);
 
 
     }
