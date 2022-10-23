@@ -13,6 +13,10 @@ public class ShapesPrinter {
         System.out.println("rectangle.getArea() = " + rectangle.getArea());
         ShapesPrinter.printName(rectangle);
 
+        Shape circle = new Circle("Circle", 13d);
+        System.out.println("circle.getArea() = " + circle.getArea());
+        ShapesPrinter.printName(circle);
+
 
     }
 

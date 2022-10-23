@@ -26,12 +26,7 @@ public Rectangle(String name, int x1, int y1, int x2, int y2){
 
 
     @Override
-    public int [] getCoordinates() {
-     return coordinates;
-    }
-
-    @Override
-    public int getArea() {
+    public double getArea() {
         return ((Math.abs(coordinates[2] - coordinates[0])) * (Math.abs(coordinates[3] - coordinates[1])));
     }
 
